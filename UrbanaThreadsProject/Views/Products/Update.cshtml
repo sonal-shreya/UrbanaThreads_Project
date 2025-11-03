@@ -1,0 +1,57 @@
+﻿@{
+    ViewData["Title"] = "Update Product";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<main class="container py-5 mt-4">
+    <a asp-controller="Product" asp-action="Read" class="nav-link mb-3">← Back to Inventory</a>
+
+    <div class="card-ux p-4">
+        <h3 class="mb-3 fw-semibold text-brand">Update Product (Simulation)</h3>
+        <p class="text-secondary">
+            In the final system, this form would prefill from a database and save changes via API.
+        </p>
+
+        <form class="row g-3 mt-2">
+            <div class="col-md-4">
+                <label class="form-label">Product ID</label>
+                <input class="form-control" value="103">
+            </div>
+
+            <div class="col-md-8">
+                <label class="form-label">Product Name</label>
+                <input class="form-control" value="Black Denim Jacket">
+            </div>
+
+            <div class="col-md-4">
+                <label class="form-label">Category</label>
+                <select class="form-select">
+                    <option selected>Smart Streetwear</option>
+                    <option>Urban Basics</option>
+                    <option>EcoActive</option>
+                </select>
+            </div>
+
+            <div class="col-md-4">
+                <label class="form-label">Price ($)</label>
+                <input type="number" class="form-control" value="85.00" step="0.01">
+            </div>
+
+            <div class="col-md-4">
+                <label class="form-label">Stock Quantity</label>
+                <input type="number" class="form-control" value="70">
+            </div>
+
+            <div class="col-12 mt-3 d-flex gap-3">
+                <button type="button" class="btn btn-brand">Save Changes</button>
+                <a asp-controller="Product" asp-action="Read" class="btn btn-outline-brand">Return to Inventory</a>
+            </div>
+        </form>
+    </div>
+</main>
+
+<footer class="py-4 text-center">
+    <div class="container">
+        © 2025 Urbana Threads · Retail Management Platform · Designed by Group 4
+    </div>
+</footer>

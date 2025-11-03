@@ -1,0 +1,79 @@
+﻿@{
+    ViewData["Title"] = "Urbana Threads - Retail Inventory Management";
+}
+
+<!-- HERO -->
+<section class="hero">
+    <div class="container">
+        <div class="row align-items-center g-4">
+            <div class="col-lg-7">
+                <h1 class="display-5 fw-semibold">Manage Fashion, Effortlessly</h1>
+                <p class="lead text-secondary">
+                    Urbana Threads helps modern fashion retailers streamline inventory, track sales,
+                    and uncover insights for smarter business decisions.
+                </p>
+                <div class="d-flex gap-2 flex-wrap mt-3">
+                    <a class="btn btn-brand" asp-controller="Dashboard" asp-action="Index">View Analytics</a>
+                    <a class="btn btn-outline-brand" asp-controller="Home" asp-action="About">Learn More</a>
+                </div>
+            </div>
+
+            <div class="col-lg-5">
+                <div class="card-ux p-4">
+                    <h5 class="mb-3 fw-semibold">Quick Access</h5>
+                    <div class="d-grid gap-2">
+                        <a asp-controller="Products" asp-action="Index" class="btn btn-inventory">View Inventory</a>
+                        <a asp-controller="Products" asp-action="Create" class="btn btn-add">Add New Product</a>
+                        <a asp-controller="Products" asp-action="Update" class="btn btn-edit">Edit Product</a>
+                        <a asp-controller="Products" asp-action="Delete" class="btn btn-remove">Remove Product</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- FEATURE TILES -->
+<section class="py-5">
+    <div class="container text-center">
+        <h2 class="mb-5 fw-semibold">Your Retail Command Center</h2>
+
+        <div class="row g-4">
+            <div class="col-md-4 col-sm-10 mx-auto">
+                <a asp-controller="Products" asp-action="Index" class="feature-tile-link">
+                    <div class="feature-tile h-100">
+                        <h5 class="fw-semibold mb-2">Real-Time Inventory</h5>
+                        <p>
+                            Keep tabs on your product catalog across Urban Basics, Smart Streetwear, and EcoActive collections
+                            - updated live for smarter stock management.
+                        </p>
+                    </div>
+                </a>
+            </div>
+
+            <div class="col-md-4 col-sm-10 mx-auto">
+                <a asp-controller="Dashboard" asp-action="Index" class="feature-tile-link">
+                    <div class="feature-tile h-100">
+                        <h5 class="fw-semibold mb-2">Sales Analytics</h5>
+                        <p>
+                            Visualize trends and top performers with stunning interactive charts.
+                            Make informed buying and pricing decisions powered by data.
+                        </p>
+                    </div>
+                </a>
+            </div>
+
+            <div class="col-md-4 col-sm-10 mx-auto">
+                <a asp-controller="Bot" asp-action="Index" class="feature-tile-link">
+                    <div class="feature-tile h-100">
+                        <h5 class="fw-semibold mb-2">Urbana Assistant</h5>
+                        <p>
+                            Get instant answers to product or stock queries using the Urbana AI Assistant -
+                            designed to make retail operations conversational and effortless.
+                        </p>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>

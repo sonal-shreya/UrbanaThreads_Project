@@ -1,0 +1,54 @@
+﻿@{
+    ViewData["Title"] = "Inventory";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<main class="container py-5 mt-4">
+    <a asp-controller="Home" asp-action="Index" class="nav-link mb-3">← Back Home</a>
+
+    <div class="card-ux p-4">
+        <h3 class="mb-3 fw-semibold text-brand">Inventory (Dummy Data)</h3>
+        <p class="text-secondary">
+            This table simulates a “Read” view. In the final project, this will load from a database/API.
+        </p>
+
+        <div class="table-responsive mt-3">
+            <table class="table table-striped align-middle">
+                <thead class="table-light">
+                    <tr>
+                        <th>Product ID</th>
+                        <th>Name</th>
+                        <th>Category</th>
+                        <th>Price ($)</th>
+                        <th>Stock</th>
+                        <th>Status</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr><td>101</td><td>Classic Graphic Tee</td><td>Urban Basics</td><td>25.00</td><td>180</td><td>In Stock</td></tr>
+                    <tr><td>102</td><td>Cropped Hoodie</td><td>Urban Basics</td><td>40.00</td><td>25</td><td>Low Stock</td></tr>
+                    <tr><td>103</td><td>Black Denim Jacket</td><td>Smart Streetwear</td><td>85.00</td><td>70</td><td>In Stock</td></tr>
+                    <tr><td>104</td><td>Slim Fit Joggers</td><td>Smart Streetwear</td><td>55.00</td><td>0</td><td>Out of Stock</td></tr>
+                    <tr><td>105</td><td>Eco Yoga Set</td><td>EcoActive</td><td>60.00</td><td>120</td><td>In Stock</td></tr>
+                    <tr><td>106</td><td>Recycled Tracksuit</td><td>EcoActive</td><td>70.00</td><td>90</td><td>In Stock</td></tr>
+                    <tr><td>107</td><td>Oversized Tee</td><td>Urban Basics</td><td>22.00</td><td>240</td><td>In Stock</td></tr>
+                    <tr><td>108</td><td>Linen Blazer</td><td>Smart Streetwear</td><td>95.00</td><td>18</td><td>Low Stock</td></tr>
+                    <tr><td>109</td><td>Eco Sneakers</td><td>EcoActive</td><td>75.00</td><td>65</td><td>In Stock</td></tr>
+                    <tr><td>110</td><td>Casual Cargo Pants</td><td>Urban Basics</td><td>45.00</td><td>130</td><td>In Stock</td></tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="mt-4 d-flex gap-3">
+            <a asp-controller="Product" asp-action="Update" class="btn btn-brand">Update Item</a>
+            <a asp-controller="Product" asp-action="Delete" class="btn btn-outline-brand">Delete Item</a>
+        </div>
+    </div>
+</main>
+
+<footer class="py-4 text-center">
+    <div class="container">
+        © 2025 Urbana Threads · Retail Management Platform · Designed by Group 4
+    </div>
+</footer>

@@ -1,0 +1,80 @@
+﻿@{
+    ViewData["Title"] = "Assistant";
+}
+
+<!-- Page-Specific Styles -->
+<style>
+    main {
+        padding-top: 6rem;
+        text-align: center;
+    }
+
+    iframe {
+        width: 90%;
+        height: 600px;
+        border: none;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        margin-top: 2rem;
+    }
+</style>
+
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg fixed-top">
+    <div class="container">
+        <a class="navbar-brand d-flex align-items-center fw-bold" asp-controller="Home" asp-action="Index">
+            <img src="~/assets/logo.png" alt="Urbana Threads Logo" width="40" height="40" class="me-2 rounded">
+            <span><span>Urbana</span> Threads</span>
+        </a>
+
+        <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#nav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div id="nav" class="collapse navbar-collapse">
+            <ul class="navbar-nav ms-auto">
+
+                <li class="nav-item">
+                    <a class="nav-link" asp-controller="Home" asp-action="Index">Home</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" asp-controller="Home" asp-action="Analytics">Analytics</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" asp-controller="Home" asp-action="About">About</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link active" asp-controller="Home" asp-action="Assistant">Assistant</a>
+                </li>
+
+            </ul>
+        </div>
+    </div>
+</nav>
+
+
+<!-- MAIN CONTENT -->
+<main class="container">
+    <h1 class="fw-semibold">🧠 Urbana Threads AI Assistant</h1>
+    <p class="text-secondary mb-4">Your virtual shopping and inventory guide</p>
+
+    <!-- Chatbot Iframe -->
+    <iframe src="https://cdn.botpress.cloud/webchat/v3.3/shareable.html?configUrl=https://files.bpcontent.cloud/2025/10/18/22/20251018223346-HMSCBJSX.json"
+            title="Urbana Threads Chatbot">
+    </iframe>
+</main>
+
+
+<!-- FOOTER -->
+<footer class="py-4 text-center">
+    <div class="container">
+        © 2025 Urbana Threads · Powered by Botpress AI
+    </div>
+</footer>
+
+<!-- Chat Widget Scripts -->
+<script src="https://cdn.botpress.cloud/webchat/v3/inject.js"></script>
+<script src="https://files.bpcontent.cloud/2025/10/18/22/20251018223346-HMSCBJSX.webchat.js"></script>

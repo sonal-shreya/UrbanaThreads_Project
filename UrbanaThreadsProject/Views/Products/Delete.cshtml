@@ -1,0 +1,42 @@
+﻿@{
+    ViewData["Title"] = "Delete Product";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<main class="container py-5 mt-4">
+    <a asp-controller="Product" asp-action="Read" class="nav-link mb-3">← Back to Inventory</a>
+
+    <div class="card-ux p-4">
+        <h3 class="mb-3 fw-semibold text-brand">Delete Product (Simulation)</h3>
+        <p class="text-secondary">
+            In production, this action would call an API to remove the record after confirmation.
+        </p>
+
+        <div class="mb-3">
+            <label class="form-label">Select Product ID</label>
+            <select class="form-select">
+                <option>101</option>
+                <option>102</option>
+                <option>103</option>
+                <option>104</option>
+                <option>105</option>
+                <option>106</option>
+                <option>107</option>
+                <option>108</option>
+                <option>109</option>
+                <option>110</option>
+            </select>
+        </div>
+
+        <div class="d-flex gap-3 mt-3">
+            <button class="btn btn-danger">Delete</button>
+            <a asp-controller="Product" asp-action="Read" class="btn btn-outline-brand">Return to Inventory</a>
+        </div>
+    </div>
+</main>
+
+<footer class="py-4 text-center">
+    <div class="container">
+        © 2025 Urbana Threads · Retail Management Platform · Designed by Group 4
+    </div>
+</footer>
