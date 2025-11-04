@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="~/css/style.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
 </head>
-@RenderSection("Scripts", required: false)
+
 <body>
 
     <nav class="navbar navbar-expand-lg fixed-top">
@@ -51,6 +51,8 @@
     <!-- Botpress Scripts -->
     <script src="https://cdn.botpress.cloud/webchat/v3/inject.js"></script>
     <script src="https://files.bpcontent.cloud/2025/10/18/22/20251018223346-HMSCBJSX.webchat.js"></script>
+
+    @RenderSection("Scripts", required: false) 
 
 </body>
 </html>

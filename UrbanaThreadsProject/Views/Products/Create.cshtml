@@ -1,60 +1,93 @@
-﻿@{
-    ViewData["Title"] = "Create Product";
+﻿@model UrbanaThreadsProject.Models.Product
+
+@{
+    ViewData["Title"] = "Add Product";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
 <main class="container py-5 mt-4">
-    <a asp-controller="Home" asp-action="Index" class="nav-link mb-3">← Back Home</a>
+    <a asp-controller="Products" asp-action="Index" class="nav-link mb-3">← Back to Inventory</a>
 
     <div class="card-ux p-4">
-        <h3 class="mb-3 fw-semibold text-brand">Create Product (Simulation)</h3>
-        <p class="text-secondary">
-            This static form demonstrates how the “Create” feature would function in the live project.
-        </p>
+        <h3 class="mb-3 fw-semibold text-brand">Add New Product</h3>
 
-        <!-- Static Form for now, will convert to real form later -->
-        <form>
+        @if (TempData["Success"] != null)
+        {
+            <div class="alert alert-success alert-dismissible fade show" role="alert">
+                @TempData["Success"]
+                <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+            </div>
+        }
+
+        <form asp-action="Create" method="post">
+
             <div class="row g-3">
+
+                <!-- Product Name -->
                 <div class="col-md-6">
-                    <label class="form-label">Product Name</label>
-                    <input class="form-control" placeholder="e.g., Oversized Tee">
+                    <label asp-for="Name" class="form-label"></label>
+                    <input asp-for="Name" class="form-control" />
+                    <span asp-validation-for="Name" class="text-danger"></span>
                 </div>
 
+                <!-- Category -->
                 <div class="col-md-6">
-                    <label class="form-label">Category</label>
-                    <select class="form-select">
-                        <option>Urban Basics</option>
-                        <option>Smart Streetwear</option>
-                        <option>EcoActive</option>
+                    <label asp-for="CategoryId" class="form-label"></label>
+                    <select asp-for="CategoryId" class="form-select" asp-items="ViewBag.Categories">
+                        <option value="">-- Select Category --</option>
                     </select>
+                    <span asp-validation-for="CategoryId" class="text-danger"></span>
                 </div>
 
-                <div class="col-md-4">
-                    <label class="form-label">Price ($)</label>
-                    <input type="number" class="form-control" min="0" step="0.01" placeholder="25.00">
+                <!-- Price -->
+                <div class="col-md-6">
+                    <label asp-for="Price" class="form-label"></label>
+                    <input asp-for="Price" type="number" class="form-control" step="0.01" />
+                    <span asp-validation-for="Price" class="text-danger"></span>
                 </div>
 
-                <div class="col-md-4">
-                    <label class="form-label">Stock Quantity</label>
-                    <input type="number" class="form-control" min="0" placeholder="100">
+                <!-- SKU -->
+                <div class="col-md-6">
+                    <label asp-for="SKU" class="form-label"></label>
+                    <input asp-for="SKU" class="form-control" />
                 </div>
 
-                <div class="col-md-4">
-                    <label class="form-label">SKU</label>
-                    <input class="form-control" placeholder="UT-TEE-001">
+                <!-- Image URL -->
+                <div class="col-md-12">
+                    <label asp-for="ImageUrl" class="form-label"></label>
+                    <input asp-for="ImageUrl" class="form-control" />
                 </div>
+
+                <!-- Description -->
+                <div class="col-12">
+                    <label asp-for="Description" class="form-label"></label>
+                    <textarea asp-for="Description" class="form-control" rows="3"></textarea>
+                </div>
+
+                <!-- Stock Quantity -->
+                <div class="col-md-6">
+                    <label class="form-label">Initial Stock Quantity</label>
+                    <input type="number" name="StockQuantity" class="form-control" min="0" required />
+                </div>
+
+                <!-- Reorder Level -->
+                <div class="col-md-6">
+                    <label class="form-label">Reorder Level</label>
+                    <input type="number" name="ReorderLevel" class="form-control" min="0" required />
+                </div>
+
             </div>
 
             <div class="d-flex gap-3 mt-4">
-                <button type="button" class="btn btn-brand">Create Item</button>
-                <a asp-controller="Product" asp-action="Read" class="btn btn-outline-brand">Go to Inventory</a>
+                <button type="submit" class="btn btn-brand">Save Product</button>
+                <a asp-controller="Products" asp-action="Index" class="btn btn-outline-brand">Cancel</a>
             </div>
+
         </form>
+
     </div>
 </main>
 
-<footer class="py-4 text-center">
-    <div class="container">
-        © 2025 Urbana Threads · Retail Management Platform · Designed by Group 4
-    </div>
-</footer>
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}
