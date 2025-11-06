@@ -3,6 +3,10 @@
 A modern retail management system built using **ASP.NET MVC**, **Entity Framework**, **Azure SQL**, **Bootstrap**, **Chart.js**, and an **AI assistant chatbot**.
 
 ---
+## Links
+
+- **Deployed Application:** [Visit Website](https://urbanathreads-fsgadcbtarfth0gk.norwayeast-01.azurewebsites.net/)
+- **YouTube Walkthrough:** [Watch the Demo](https://youtu.be/V5Ura06fxM8) In case the deployed application crashes due to lack of credits or free tier. Backup screen recording of our application is available on youtube for reference.
 
 ##  Features
 
