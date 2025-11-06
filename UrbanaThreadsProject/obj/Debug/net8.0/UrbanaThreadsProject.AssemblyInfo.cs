@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("UrbanaThreadsProject")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e25974d3b68bfdd9569b17ded5bb225ca89559c8")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f5dd868fbd14fcb3f150d8e6f358be4806842136")]
 [assembly: System.Reflection.AssemblyProductAttribute("UrbanaThreadsProject")]
 [assembly: System.Reflection.AssemblyTitleAttribute("UrbanaThreadsProject")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

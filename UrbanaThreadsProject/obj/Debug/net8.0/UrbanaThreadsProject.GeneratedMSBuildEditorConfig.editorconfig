@@ -17,69 +17,69 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = UrbanaThreadsProject
 build_property.RootNamespace = UrbanaThreadsProject
-build_property.ProjectDir = C:\Users\sumit\vscode projects\UrbanaThreads_Project\UrbanaThreadsProject\
+build_property.ProjectDir = C:\Users\aishw\Downloads\UrbanaThreads_Project-1\UrbanaThreadsProject\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\sumit\vscode projects\UrbanaThreads_Project\UrbanaThreadsProject
+build_property.MSBuildProjectDirectory = C:\Users\aishw\Downloads\UrbanaThreads_Project-1\UrbanaThreadsProject
 build_property._RazorSourceGeneratorDebug = 
 build_property.EffectiveAnalysisLevelStyle = 8.0
 build_property.EnableCodeStyleSeverity = 
 
-[C:/Users/sumit/vscode projects/UrbanaThreads_Project/UrbanaThreadsProject/Views/Home/About.cshtml]
+[C:/Users/aishw/Downloads/UrbanaThreads_Project-1/UrbanaThreadsProject/Views/Home/About.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBYm91dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/sumit/vscode projects/UrbanaThreads_Project/UrbanaThreadsProject/Views/Home/Bot.cshtml]
+[C:/Users/aishw/Downloads/UrbanaThreads_Project-1/UrbanaThreadsProject/Views/Home/Bot.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxCb3QuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/sumit/vscode projects/UrbanaThreads_Project/UrbanaThreadsProject/Views/Home/Data.cshtml]
+[C:/Users/aishw/Downloads/UrbanaThreads_Project-1/UrbanaThreadsProject/Views/Home/Data.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxEYXRhLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/sumit/vscode projects/UrbanaThreads_Project/UrbanaThreadsProject/Views/Home/Index.cshtml]
+[C:/Users/aishw/Downloads/UrbanaThreads_Project-1/UrbanaThreadsProject/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/sumit/vscode projects/UrbanaThreads_Project/UrbanaThreadsProject/Views/Home/Privacy.cshtml]
+[C:/Users/aishw/Downloads/UrbanaThreads_Project-1/UrbanaThreadsProject/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/sumit/vscode projects/UrbanaThreads_Project/UrbanaThreadsProject/Views/Products/Create.cshtml]
+[C:/Users/aishw/Downloads/UrbanaThreads_Project-1/UrbanaThreadsProject/Views/Products/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/sumit/vscode projects/UrbanaThreads_Project/UrbanaThreadsProject/Views/Products/Delete.cshtml]
+[C:/Users/aishw/Downloads/UrbanaThreads_Project-1/UrbanaThreadsProject/Views/Products/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/sumit/vscode projects/UrbanaThreads_Project/UrbanaThreadsProject/Views/Products/Read.cshtml]
+[C:/Users/aishw/Downloads/UrbanaThreads_Project-1/UrbanaThreadsProject/Views/Products/Read.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcUmVhZC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/sumit/vscode projects/UrbanaThreads_Project/UrbanaThreadsProject/Views/Products/Update.cshtml]
+[C:/Users/aishw/Downloads/UrbanaThreads_Project-1/UrbanaThreadsProject/Views/Products/Update.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcVXBkYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/sumit/vscode projects/UrbanaThreads_Project/UrbanaThreadsProject/Views/Shared/Error.cshtml]
+[C:/Users/aishw/Downloads/UrbanaThreads_Project-1/UrbanaThreadsProject/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/sumit/vscode projects/UrbanaThreads_Project/UrbanaThreadsProject/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/aishw/Downloads/UrbanaThreads_Project-1/UrbanaThreadsProject/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/sumit/vscode projects/UrbanaThreads_Project/UrbanaThreadsProject/Views/_ViewImports.cshtml]
+[C:/Users/aishw/Downloads/UrbanaThreads_Project-1/UrbanaThreadsProject/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/sumit/vscode projects/UrbanaThreads_Project/UrbanaThreadsProject/Views/_ViewStart.cshtml]
+[C:/Users/aishw/Downloads/UrbanaThreads_Project-1/UrbanaThreadsProject/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/sumit/vscode projects/UrbanaThreads_Project/UrbanaThreadsProject/Views/Shared/_Layout.cshtml]
+[C:/Users/aishw/Downloads/UrbanaThreads_Project-1/UrbanaThreadsProject/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-t9fokqc362
